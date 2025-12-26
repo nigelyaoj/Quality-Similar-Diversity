@@ -15,10 +15,15 @@ pip install -r requirements.txt
 ```
 
 ### Running 
-see exp.sh
+**For MuJoCo**:
+
+Please see exp.sh
 
 
-For Atari, we have tried to provide a comprehensive description of the Atari training in the Appendix. Aside from the standard DQN model, population-based PPO training runs, the QSD part (as like the MuJoCo code), we have additionally incorporated the distributed reinforcement learning framework mentioned in [1] to address the high variances of RL training in Atari environments. Due to the company’s policy, the Atari source code is not allowed to be disclosed yet.
+**For Atari**:
+
+We have provided a comprehensive description of the Atari training in the Appendix. Aside from the standard DQN model, population-based PPO training runs, the QSD part (as like the MuJoCo code), we have additionally incorporated the distributed reinforcement learning framework mentioned in [1] to address the high variances of RL training in Atari environments. Due to the company’s policy, the Atari source code is not allowed to be disclosed yet.
+
 [1] Ye, Deheng, et al. "Towards playing full moba games with deep reinforcement learning." Advances in Neural Information Processing Systems 33 (2020): 621-632.
 
 ### Citation
